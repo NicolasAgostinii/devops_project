@@ -70,3 +70,4 @@ resource "aws_route_table_association" "pub02assoc" {
   subnet_id = aws_subnet.nicolas_pub02.id
   route_table_id = aws_route_table.route_pub.id
 }
+
